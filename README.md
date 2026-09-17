@@ -92,6 +92,8 @@ marks, generate visualizations, or exit. Generate the dataset first if
 
 
 2)Model Training
+
+
 <img width="464" height="227" alt="Student Prediction" src="https://github.com/user-attachments/assets/f9bcbbd5-967e-4d31-9e78-25b31f88f313" />
 
 
