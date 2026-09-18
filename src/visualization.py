@@ -42,7 +42,7 @@ def create_visualizations():
         df["marks"]
     )
 
-    plt.title("Attendance vs Marks")
+    plt.title("attendance vs marks")
     plt.xlabel("Attendance")
     plt.ylabel("Marks")
     plt.tight_layout()
@@ -59,7 +59,7 @@ def create_visualizations():
         df["marks"]
     )
 
-    plt.title("Sleep Hours vs Marks")
+    plt.title("sleep hours vs marks")
     plt.xlabel("Sleep hours per day")
     plt.ylabel("Marks")
     plt.tight_layout()
@@ -68,8 +68,8 @@ def create_visualizations():
     plt.show()
     plt.close()
 
-    print("Visualizations created successfully!")
-    print("Saved in:", OUTPUT_DIR)
+    print("Visulizations creaed succesfully!")
+    print("Savd in:", OUTPUT_DIR)
 
 
 if __name__ == "__main__":
