@@ -11,15 +11,11 @@ decisions.
 
 ## Scope of the Project
 
-The project is a local, menu-driven Python application demonstrating a
-basic supervised-learning workflow. It includes: - Creating nine
-synthetic sample records. - Using **Linear Regression** to estimate a
-numerical marks value. - Splitting records into training and testing
-subsets. - Reporting Mean Absolute Error (MAE) and R². - Accepting
-feature values and displaying an estimated score. - Generating scatter
-plots for each input feature against marks. - Saving the dataset as
-`student_data.csv` and plot images in `Screenshots/`.
-
+The project is a local , prediction tool which uses the supervised learning concept of Linear Regression to predict 
+a student's marks out of 100 using key inputs namely 
+Attendance , Sleep hours and study hours.
+It firsts uses this data to train the model before making predictions based on a dataset provided to the said model.
+In the end it generates Graphs for more better visalization and also saves the screenshots!
 It does not use real student records, a database server, online
 services, user accounts, or a graphical web interface. The small
 synthetic dataset makes this a learning prototype, not a validated
@@ -56,20 +52,18 @@ Sleep hours per day: 0--24.
 
 ## Algorithm
 
-The project uses **Linear Regression**, a supervised regression
-algorithm for estimating a continuous numerical target. The features are
-`study_hours`, `attendance`, and `sleep_hours`; the target is `marks`.
+The project uses **Linear Regression**, which is a supervised regression
+algorithm used for estimating a continous numerical value. The features are attendance , sleep hours , study hours
+and the target is marks.
 The code uses `train_test_split(test_size=0.33, random_state=42)`, fits
 the model on the training subset, and evaluates it using MAE and R².
 
 ## Constraints and Limitations
 
 -   Only nine synthetic records are used.
--   The data does not represent a real student population.
--   Only three features are included; many other factors can affect
-    academic outcomes.
--   Metrics from a very small test subset are unstable and should be
-    interpreted cautiously.
+-   The data is not real and does not represent actual students.
+-   A lot of other factors affect the academic outcomes but only 3 are included.
+-  This is a very small test so the results might be quite unstable for us.
 -   Predictions are estimates, not guaranteed results.
 
 ## Expected Outcome

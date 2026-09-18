@@ -1,20 +1,18 @@
-# Student Performance Predictor
+# Student Performance Prediction System
 
 ## Project Title
 
-**Student Performance Predictor using Machine Learning**
+**Student Performance Predictor made using Machine Learning**
 
 ## Overview
 
-A beginner-level Python application demonstrating supervised machine
-learning with **Linear Regression**. It estimates examination marks out
-of 100 using daily study hours, attendance percentage, and daily sleep
-hours. The project uses nine synthetic sample records and is intended
-for learning only---not reliable prediction about real students.
+This is a beginner-level Python application demonstrating supervised machine
+learning with **Linear Regression**. it exxamines the marks scored out of 100 by analysisng the sleep schedule , atteandacne and hours studied.
+The project uses 9 synthetic records for the Model training.
 
 ## Features
 
--   Generate `student_data.csv` from nine sample records.
+-  It  Generates `student_data.csv` from nine sample records.
 -   Train a Linear Regression model using study hours, attendance, and
     sleep hours.
 -   Evaluate with Mean Absolute Error (MAE) and R².
@@ -59,25 +57,7 @@ StudentPredictor/
 
 3.  Open a terminal in the project root.
 
-4.  Optionally create a virtual environment:
-
-    ``` powershell
-    python -m venv .venv
-    .venv\Scripts\Activate.ps1
-    ```
-
-5.  Install dependencies:
-
-    ``` bash
-    python -m pip install -r requirements.txt
-    ```
-
-    Ensure `requirements.txt` includes `pandas`, `scikit-learn`, and
-    `matplotlib`. If needed:
-
-    ``` bash
-    python -m pip install pandas scikit-learn matplotlib
-    ```
+4.  Install dependencies: Pandas and Sikit-learn
 
 ## Run the Project
 
@@ -106,20 +86,20 @@ marks, generate visualizations, or exit. Generate the dataset first if
     and confirm the program gives a helpful message.
 
 ## Screenshots
+1)Main Interface :
 
-Add genuine screenshots from your final run: - Main menu and dataset
-generation - Model evaluation output - Example prediction - Three
-scatter plots
+<img width="470" height="233" alt="Main Interface" src="https://github.com/user-attachments/assets/cbffa812-84f7-47aa-849f-1269b337aa16" />
 
-## Limitations
 
-The dataset contains only nine synthetic records and uses only three
-features. Metrics from such a small test set may be unstable.
-Predictions are educational estimates, not guaranteed outcomes and must
-not be used for grading or other consequential decisions.
+2)Model Training
 
-## Author
 
--   Name: \[Your Name\]
--   Course: Fundamentals of AIML
--   Institution: VIT Bhopal University
+<img width="464" height="227" alt="Student Prediction" src="https://github.com/user-attachments/assets/f9bcbbd5-967e-4d31-9e78-25b31f88f313" />
+
+
+
+3)Prediction
+
+<img width="465" height="464" alt="Prediction" src="https://github.com/user-attachments/assets/c4c04019-a36d-4017-9d9a-8f3480d95ab9" />
+
+
